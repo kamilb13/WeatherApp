@@ -16,7 +16,7 @@ A weather application written in Java that allows users to check the current wea
 
 Here is a screenshot of the application in action:
 
-![Weather App Screenshot](weather_app.png)
+![Weather App Screenshot](weather_app.PNG)
 
 
 ## Features
