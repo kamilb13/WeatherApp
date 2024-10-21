@@ -39,7 +39,8 @@ Here is a screenshot of the application in action:
    git clone https://github.com/username/repo-name.git
 
 2. **Navigate to the project directory:**
-   ```cd repo-name
+   ```bash
+   cd repo-name
 
 3. **Set your API key in the ApiConnection class:**
    Open the ApiConnection.java file and insert your API key where ... is indicated.
@@ -47,7 +48,8 @@ Here is a screenshot of the application in action:
 
 4. **Run the application:**
    If you are using Maven:
-   ```mvn javafx:run
+   ```bash
+   mvn javafx:run
 
 ## Usage
 1. Launch the application.
