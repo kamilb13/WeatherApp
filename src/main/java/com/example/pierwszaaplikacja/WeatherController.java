@@ -29,6 +29,6 @@ public class WeatherController {
 
         double temperatureCelsius = temperatureKelvin - 273.15;
 
-        weatherLabel.setText("Informacje o pogodzie w " + city + ": " + temperatureCelsius);
+        weatherLabel.setText("Informacje o pogodzie w " + city + ": " + Math.round(temperatureCelsius*100.00) /100.00 + "℃");
     }
 }

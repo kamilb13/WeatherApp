@@ -10,7 +10,6 @@ import java.io.IOException;
 public class WeatherApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        //String cssFile = getClass().getResource("/styles.css").toExternalForm();
 
         FXMLLoader fxmlLoader = new FXMLLoader(WeatherApplication.class.getResource("weather.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 820, 440);
